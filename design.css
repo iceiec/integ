@@ -1,0 +1,107 @@
+:root {
+    --primary-color: #f26627;
+  }
+  
+  body {
+    background-color: #cde8e5;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+  }
+  
+  #header {
+    background-color: #eef7ff;
+    height: 20%;
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: 3px 5px 20px black;
+  }
+  
+  #logo {
+    width: 230px;
+    height: 230px;
+    color: white;
+    margin: 0 auto;
+  }
+  
+  .choices {
+    background-color: #badfe7;
+    margin: 20px auto;
+    padding: 20px;
+    min-height: 5px;
+    box-shadow: 3px 5px 20px black;
+  }
+  
+  .choice-item {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    color: #fff;
+    background-color: white;
+    font-size: 1em;
+    color: var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px black;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .sel {
+    background-color: #99aead;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 13px;
+  }
+  
+  .sec {
+    background-color: #eef7ff;
+    color: #4d869c;
+    margin: 20px auto;
+    padding: 20px;
+    min-height: 10px;
+    box-shadow: 3px 5px 20px black;
+  }
+  
+  .schedule-table {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .schedule-table table {
+    width: 50%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .schedule-table th,
+  .schedule-table td {
+    border: 1px solid #000;
+    padding: 8px;
+  }
+  
+  .schedule-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .frontpage {
+    text-align: right;
+    background-color: black;
+    margin-top: 50px;
+  }
+  
+  #preview {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .juliet{
+    width: 100px;
+    height: 100px;
+  }

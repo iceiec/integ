@@ -1,0 +1,1 @@
+Error: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'fjaclient'@'localhost' for table `fjac`.`transactions`Error: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'fjaclient'@'localhost' for table `fjac`.`transactions`

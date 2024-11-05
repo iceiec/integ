@@ -1,0 +1,192 @@
+body {
+  background: 
+      linear-gradient(150deg, rgba(255, 255, 255, 0.8), rgba(255, 205, 112, 0.8)), /* Adjust opacity to blend */
+      url("bgg.png");
+  background-size: cover, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed;
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+
+  
+  #logo {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+  }
+  
+  #header {
+    background-color: orange;
+    height: 15%;
+    width: 100%;
+    box-shadow: 0px 3px 10px black;
+    display: flex;
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: flex-end;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  
+  ul li {
+    margin-right: 55px;
+  }
+  
+  ul li:last-child {
+    margin-right: 0;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .slide-up {
+    animation: slide-up 1s ease-out forwards;
+  }
+  
+  @keyframes slide-up {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .sec {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 20px;
+    min-height: 100px;
+    width: 98%;
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+  }
+  
+  
+  .desc {
+    width: 400px;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-top: 300px;
+  }
+  
+  .heading h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .heading h5 {
+    font-size: 15px;
+  }
+  
+  .sec p {
+    margin-top: 20px;
+  }
+  
+  .sec a {
+    font-weight: bold;
+    color: black;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #59915b;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+#juliet{
+    width: 100%;
+    height: auto;
+  }
+
+  #andoy{
+    width: 100%;
+    height: auto;
+  }
+
+  #user{
+    margin-left:550px;
+  }
+
+  .profile-header {
+    display: flex;
+    margin-left:600px;
+    align-items: center;
+  }
+  
+  .pfp {
+    width: 130px; /* Adjust the width as desired */
+    height: 130px; /* Adjust the height as desired */
+    margin-right: 20px; /* Add some spacing between the image and text */
+    border-radius: 50%;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .username {
+    margin: 0 0 10px 0;
+  }
+  
+  .logout-link {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .schedule-table {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .schedule-table table {
+    width: 50%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .schedule-table th,
+  .schedule-table td {
+    border: 2px solid orange;
+    padding: 10px;
+  }
+  
+  .schedule-table th {
+    background-color: orange;
+  }
+  
